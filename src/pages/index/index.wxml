@@ -1,0 +1,13 @@
+<view class="container">
+  <label class="label">
+    <my-textarea
+      auto-height
+      disable-default-padding
+      class="textarea"
+      placeholder="请输入"
+      value="{{value}}"
+      bind:input="onInput"
+    />
+  </label>
+  <button type="primary" bind:tap="submit">Submit</button>
+</view>
